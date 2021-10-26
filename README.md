@@ -1,5 +1,5 @@
 # GDSC-Movie Warehouse
-**Greetings Everyone** 🐸👋. I just made this website that shows my favorite movies throughout my life. Hopefully, I can keep updating this website as my life goes on. This website was initially made to fulfill my task as a member of Google Developer Student Club of Bandung Institute of Technology 👨‍🎓, but i might develop this further in the future.For direct experience, You might visit this website at https://vvaltzx.github.io/GDSC-moviewarehouse/<br><br>
+**Greetings Everyone** 🐸👋. I just made this website that shows my favorite movies throughout my life. Hopefully, I can keep updating this website as my life goes on. This website was initially made to fulfill my task as a member of Google Developer Student Club of Bandung Institute of Technology 👨‍🎓, but i might develop this further in the future. For direct experience, You might visit this website at https://vvaltzx.github.io/GDSC-moviewarehouse/<br><br>
 
 # Features
 ![Landing Page](assets/readme/main.png)
