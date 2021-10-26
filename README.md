@@ -9,5 +9,5 @@ When you hover on the poster, there will be a **trailer** of that movie played. 
 ![Trailer Demo](assets/readme/trailer-demo.gif)
 The last feature is the **details button**. On the bottom right of the carousel, you can toggle the details wether it's shown or not. The detail contains title, rating(imdb), and short synopsis. Here is the demo
 ![Details Demo](assets/readme/details-demo.gif)
-So that's sum up the core features of this website.<br>In the future, I'm planning to fetch the movie data from a real database, which i can't do yet right now.<br><br>
+So that sums up the core features of this website.<br>In the future, I'm planning to fetch the movie data from a real database, which i can't do yet right now.<br><br>
 Hope we meet again in future occasion 😎. But for now, i guess **Goodbye** 🐸👋
