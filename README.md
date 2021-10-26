@@ -1,5 +1,5 @@
 # GDSC-Movie Warehouse
-**Greetings Everyone** 🐸👋. I just made this website that shows my favorite movies throughout my life. Hopefully, I can keep updating this website as my life goes on. This website was initially made to fulfill my task as a member of Google Developer Student Club of Bandung Institute of Technology 👨‍🎓, but i might develop this further in the future. For direct experience, You might visit this website at https://vvaltzx.github.io/GDSC-moviewarehouse/<br><br>
+**Greetings Everyone** 🦊👋. I just made this website that shows my favorite movies throughout my life. Hopefully, I can keep updating this website as my life goes on. This website was initially made to fulfill my task as a member of Google Developer Student Club of Bandung Institute of Technology 👨‍🎓, but i might develop this further in the future. For direct experience, You might visit this website at https://vvaltzx.github.io/GDSC-moviewarehouse/<br><br>
 
 # Features
 ![Landing Page](assets/readme/main.png)
@@ -10,4 +10,4 @@ When you hover on the poster, there will be a **trailer** of that movie played. 
 The last feature is the **details button**. On the bottom right of the carousel, you can toggle the details wether it's shown or not. The detail contains title, rating(imdb), and short synopsis. Here is the demo
 ![Details Demo](assets/readme/details-demo.gif)
 So that sums up the core features of this website.<br>In the future, I'm planning to fetch the movie data from a real database, which i can't do yet right now.<br><br>
-Hope we meet again in future occasion 😎. But for now, i guess **Goodbye** 🐸👋
+Hope we meet again in future occasion 😎. But for now, i guess **Goodbye** 🦊👋
