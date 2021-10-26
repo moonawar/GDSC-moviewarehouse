@@ -64,6 +64,10 @@
     visibility: hidden;
 }
 
+#audio-control:hover{
+    cursor: pointer;
+}
+
 .details{
     position: absolute;
     bottom: 0;
