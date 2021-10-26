@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let counter = 1;
   const moviePoster = document.getElementsByClassName("movieposter");
-  const size = moviePoster[2].clientWidth + 0.3;
+  const size = moviePoster[2].clientWidth + 0.05;
   const height = `${size*100/1366}%`;
   moviePosters.style.transform = "translateX(" + -size * counter + "px)";
 
