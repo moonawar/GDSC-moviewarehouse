@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1{
+    width: 100vw; height: 100vh; 
+    background-image: url(./assets/static/section1.png);
+    background-size: cover;
+}
+
+#logo{    
+    color: #D04D4D;
+    width: 190px;
+    padding: 20px 0 0 30px;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#favorites{
+    color: white;
+    margin-top: 15px;
+}
+
+#title{
+    color: white;
+    position: absolute;
+    left: 3%;
+    font-size: 20px;
+}
+
+#carousel{
+    width: 100vw; height: 427px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.movieposter{
+    min-width: 100.2%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+#audio-control{
+    position: absolute;
+    z-index: 3;
+    left: 3%;
+    top: 5%;
+    visibility: hidden;
+}
+
+.details{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 41%);
+    width: 100%; height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 30px;
+    z-index: 3;
+}
+
+#details-button{
+    color: white;
+    font-size: 20px;
+}
+
+#details-button:hover{
+    color: rgb(212, 212, 212);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#movie-details{
+    color: white;
+    position: absolute;
+    z-index: 4;
+    width: 33%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 41%);
+    border-radius: 9px;
+    right: 5%; top: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+#movie-details h4{
+    font-size: 14px;
+    text-align: justify;
+    width: 82%;
+}
+
+#movie-container{
+    width: 60.3vw; height: 100%;
+    background-color: #818181;;
+    margin: auto 36px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    
+}
+#movie-posters{
+    display: flex;
+}
+
+#trailer{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%; min-height: 100%;
+    max-width: 150%; max-height: 135%;
+    overflow: hidden;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.arrow{
+    size: 50%;
+    opacity: 40%;
+    z-index: 1;
+}
+
+.arrow:hover{
+    opacity: 100%;
+}
+
+.section2{
+    width: 100vw; height: 100vh; 
+    background-image: url(./assets/static/section2.png);
+    background-size: cover;
+}
+
+#featured-movies{
+    color: #D04D4D;
+    padding-top: 2%; margin-left: 2%;
+}

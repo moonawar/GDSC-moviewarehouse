@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GDSC MOVIE WAREHOUSE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./assets/static/G.png" type="image/x-icon">
+    <script src="./carousel.js"></script>
+  </head>
+  <body>
+    <section class="section1">
+      <nav>
+        <h2 id="logo">GDSC MOVIE WAREHOUSE</h2>
+      </nav>
+      <div class="main-content">
+        <h2 id='favorites'>Addin Munawwar's Favorites</h2>
+        <div id="carousel">
+          <img src="./assets/static/left arrow.png" class="arrow" id="prevButton">
+          <div id="movie-container">
+            <div id='movie-details'>
+              <h3>Details</h3>
+              <h4 id='details-title'>Title : Spider-Man Into the Spider Verse</h4>
+              <h4 id='details-rating'>Rating : 8.4</h4>
+              <h4 id='details-synopsis'>Synopsis : In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.</h4>
+            </div>
+            <img src="./assets/static/audio-control-muted.png" alt="" id="audio-control">
+            <div class="details">
+              <h2 id="title"></h2>
+              <h2 id="details-button">Show Details ⓘ</h2>
+            </div>
+            <video id="trailer">
+              <source src="./assets/dynamic/movietrailer/spiderverse.mp4" type="video/mp4" id="trailer-src">
+            </video>
+            <div id="movie-posters">
+
+            </div>
+          </div>
+          <img src="./assets/static/right arrow.png" class="arrow" id="nextButton">
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
